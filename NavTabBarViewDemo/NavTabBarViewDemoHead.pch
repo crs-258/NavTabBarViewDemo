@@ -1,0 +1,21 @@
+//
+//  NavTabBarViewDemoHead.pch
+//  NavTabBarViewDemo
+//
+//  Created by 陈荣山 on 16/3/15.
+//  Copyright © 2016年 陈荣山. All rights reserved.
+//
+
+#ifndef NavTabBarViewDemoHead_pch
+#define NavTabBarViewDemoHead_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "UIView+FrameAdjust.h"
+
+//获取屏幕的宽和高
+#define PDEVICEWIDTH [UIScreen mainScreen].bounds.size.width
+#define PDEVICEHEIGHT [UIScreen mainScreen].bounds.size.height
+#define DEF_ViewBgColor [UIColor colorWithRed:243.0/255.0f green:243.0/255.0f  blue:243.0/255.0f alpha:1.0f]
+#define DEF_CellSpliteLineColor [UIColor colorWithRed:231/255.0f green:231/255.0f  blue:231/255.0f alpha:1.0f]
+#endif /* NavTabBarViewDemoHead_pch */
